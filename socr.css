@@ -1,0 +1,170 @@
+.header__container {
+	display: flex;
+	justify-content: flex-end;
+	background-image: url("https://www.socrative.com/wp-content/uploads/2019/03/college-student-fpo@2x-2000x1134.jpg");
+	height: 1134px;
+}
+.container {
+}
+.container--large {
+}
+.header__navigation {
+}
+.navigation-main {
+
+}
+.Loginlink{
+	text-decoration: none;
+}
+.navigation-main_main {
+
+}
+.navigation-main_items {
+	font-size: 20px;
+	font-weight: bold;
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+
+}
+.header__title{
+	font-size: 25px;
+	position: absolute;
+	top: 350px;
+	left: 150px;
+	color: white;
+}
+.header__link{
+	color: white;
+	text-decoration: none;
+	background-color: #06b7d8;
+	display: block;
+	width: 200px;
+	height: 40px;
+	border-bottom-right-radius: 100%;
+	border-top-right-radius: 100%;
+}
+.header__title {
+  animation: move 3s;
+  -webkit-animation: move 3s;
+}
+
+@keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+            
+@-webkit-keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.navigation-main_item {
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+.navigation-main_link {
+	text-decoration: none;
+	color: white;
+}
+.navigation-main_item--buttons {
+	margin-top: 25px;
+}
+.navigation-main__button {
+	margin-bottom: 20px;
+	width: 200px;
+	display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+   	text-align: center;
+}
+.navigation-main__button:hover{
+	background-color: #1d3461;
+	border-color: #1d3461;
+	transition: 2s;
+}
+#navigation-main__button-color{
+	background-color: #06b7d8;
+}
+.footer {
+	background-color: #1d3461;
+	font-size: 14px;
+	padding-right: 50px;
+	padding-left:  50px;
+}
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+}
+.container {
+}
+.container--padded {
+}
+.footer_column {
+	
+}
+.footer_column--logo {
+}
+.footer__footnotes {
+
+}
+.footer__footnote {
+	color: white;
+	opacity: 0.6;
+}
+.footer__footnote__link{
+	color: white;
+	text-decoration: none;
+}
+
+.footer__column {
+}
+.footer__heading {
+	color: #06b7d8;
+	margin-left: 30px;
+}
+.navigation-footer {
+	list-style-type: none;	
+}
+.navigation-footer__link{
+	text-decoration: none;
+	color: white;
+	opacity: 0.6;
+}
+.navigation-footer__item {
+
+}
+.button {
+	margin-bottom: 20px;
+	width: 100px;
+	display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+   	text-align: center;
+}
+.button--on-dark {
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
